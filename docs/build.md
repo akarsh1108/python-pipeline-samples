@@ -49,6 +49,7 @@ Then go to Execution (In this step we are going to compile the code)
 
 - Click on `Add step`
  - Go to `Build` and click on `Run`
+ ![Add Step](Images\selectingAddStage.png)
  - Change the settings as following 
  - Name: `Code compile`
  - Container Registry -> Choose `New connector`
@@ -71,7 +72,7 @@ Then go to Execution (In this step we are going to compile the code)
     `python -m compileall ./`
     
   - Then click `Apply changes`
-
+![Code compile](Images\configureRunStepBuildStage.png)
 Next we are going to create Image and Push the image to docker registry 
 
 Click on **[Create Image and Push to Docker Registry](DockerPush.md)**
