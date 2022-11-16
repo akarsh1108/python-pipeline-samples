@@ -34,6 +34,7 @@
       - Dockerfile - ```pythondockerfile```
 
 ![Build and Push](/Images/BuildAndPushImageToDocker.png)
+
 Now we move to Integration Testing and running our Pipeline
 
 Click on **[Integration Test and Run Pipeline](Integration.md)**
