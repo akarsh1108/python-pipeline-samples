@@ -26,7 +26,7 @@ Harness will pull the image onto the container in your infrastructure. Next, it 
           - Shell: ```Sh```
           - Command: ```python3 /python-pipeline-samples/app.py```
           - Select ```Apply changes``` 
-[!Configure Background](Images\configureBackgroundStep.png)          
+[!Configure Background](/Images/configureBackgroundStep.png)          
 #### Connecting to server
 Next, we can run an integration test. We'll simply test the connection to the server.
 - Select add step in the execution tab of run integration stage 
@@ -41,7 +41,7 @@ Next, we can run an integration test. We'll simply test the connection to the se
         curl localhost:5000
        ```
      - Select ```Apply Changes```.
-[!Testing to Server](Images\TestConnectionToServer.png)
+[!Testing to Server](/Images/TestConnectionToServer.png)
 ## Run the Pipeline
  - Click ↑Save.
  - Click ```Run```. 
@@ -49,5 +49,5 @@ Next, we can run an integration test. We'll simply test the connection to the se
    - Under CI Codebase, select ```Git branch```.
    - In Git Branch, enter the name of the branch where the codebase is, here ```main```
      - Click Run Pipeline.
-[!Click Run](Images\RunPipeline.png)
+[!Click Run](/Images/RunPipeline.png)
 
